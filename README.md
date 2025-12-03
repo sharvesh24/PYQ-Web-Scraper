@@ -1,20 +1,16 @@
-#config.json: Contains the subject code, subject name and URL
+## Project Structure
 
-#main.py: Main python program
+- **#config.json**: Contains the subject code, subject name, and URL  
+- **#main.py**: Main Python program  
+- **#data/analytics/cbse_class10_maths_analytics.json**: Contains the generated JSON file with difficulty distribution and pattern changes observed across 7-year paper patterns  
+- **#requirements.txt**: Contains the packages needed for the program to work  
 
-#data/analytics/cbse_class10_maths_analytics.json: Contains the generated json file containing the difficulty distribution, pattern changes observed across 7 year paper patterns
+---
 
-#requirements.txt: Contains the packages needed for the program to work
+## How to Run This Program
 
+```bash
+pip install -r requirements.txt
+python main.py
 
-
-#How to run this program
-
-
-Step 1: pip install -r requirements.txt
-
-Step 2: python main.py
-
-
-This would download all the question papers (CBSE Class 10 Maths in this case) and parse through all the question papers. 
 

@@ -1,0 +1,34 @@
+{
+  "boards": {
+    "cbse": {
+      "base_url": "https://oswalpublishers.com/cbse",
+      "classes": {
+        "10": {
+          "subjects": {
+            "maths": {
+              "code": "30",
+              "name": "Mathematics"
+            }
+          }
+        }
+      }
+    }
+  },
+  "scraping": {
+    "delay_between_requests": 2,
+    "max_retries": 3,
+    "timeout": 30,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  },
+  "years": ["2025", "2024", "2023", "2022", "2021", "2020", "2019"],
+  "paper_sets": [
+    "30-1-1", "30-1-2", "30-1-3",
+    "30-2-1", "30-2-2", "30-2-3",
+    "30-3-1", "30-3-2", "30-3-3"
+  ],
+  "output": {
+    "pdf_dir": "data/pdfs",
+    "processed_dir": "data/processed",
+    "analytics_dir": "data/analytics"
+  }
+}
